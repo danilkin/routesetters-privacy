@@ -4,7 +4,7 @@ title: Политика конфиденциальности «Рутсетте�
 
 # Политика конфиденциальности игры «Рутсеттеры»
 
-Дата публикации: 16.10.2026
+Дата публикации: 17.10.2026
 
 Эта политика объясняет, какие данные обрабатывает мобильная игра «Рутсеттеры» для Android (далее — «Игра») и зачем.
 
@@ -22,8 +22,9 @@ title: Политика конфиденциальности «Рутсетте�
 
 **3. Данные на устройстве**
 
-Прогресс (станции, рекорд высоты, очки) и настройки (звук, язык, «Меньше движения») хранятся только в памяти вашего телефона.
-Разработчику они не передаются.
+Сохранение Игры (станции, рекорд высоты, очки) и настройки (звук, язык, «Меньше движения») хранятся только в памяти вашего
+телефона. Само сохранение Разработчику не передаётся. Игровые счётчики — высота, станции, очки и другие события из п. 5 — уходят в
+статистику AppMetrica.
 
 Если на телефоне включено резервное копирование Android, сохранение Игры может попасть в резервную копию. Её хранит Google или
 производитель телефона по своим правилам.
@@ -36,31 +37,29 @@ title: Политика конфиденциальности «Рутсетте�
 
 **4. Реклама (Yandex Mobile Ads)**
 
-В Игру встроен SDK рекламы Yandex Mobile Ads (ООО «ЯНДЕКС»). Реклама в Игре — только видео за награду, которое вы запускаете сами
-кнопкой с пометкой рекламы. В нынешней версии Игры показ рекламы ещё не включён: кнопок рекламы нет. Когда реклама появится, она
-будет показываться без персонализации, как для детской аудитории (возраст Игры — 6+).
+В Игре может показываться реклама сервиса Yandex Mobile Ads (ООО «ЯНДЕКС»): видео за награду, которое вы запускаете сами кнопкой с
+пометкой рекламы. Реклама показывается без персонализации, как для детской аудитории (возраст Игры — 6+).
 
-SDK рекламы запускается вместе с Игрой — даже пока реклама не показывается — и получает технические данные:
+Чтобы показать и посчитать рекламу, SDK рекламы получает технические данные:
 
 - IP-адрес;
 - модель и параметры устройства, версия Android, язык;
 - тип сети;
-- показы и нажатия на рекламу, когда она показывается.
+- показы и нажатия на рекламу.
 
 Для статистики и защиты от мошенничества SDK рекламы использует библиотеку AppMetrica от Яндекса. Эти данные обрабатывает Яндекс по
 своей политике конфиденциальности: <https://yandex.ru/legal/confidential/>
 
 **5. Аналитика (AppMetrica)**
 
-Чтобы понимать, как играют в Игру, и исправлять ошибки, Игра может использовать сервис AppMetrica (ООО «ЯНДЕКС»).
+Чтобы понимать, как играют в Игру, и исправлять ошибки, Игра с версии 1.1.2 использует сервис AppMetrica (ООО «ЯНДЕКС»). Он
+получает:
 
-В нынешней версии Игры аналитика Разработчика не включена: Игра не отправляет в AppMetrica свои события, а AppMetrica работает только
-внутри SDK рекламы (п. 4) и получает технические данные из списка ниже.
-
-Когда аналитика будет включена в обновлении Игры, AppMetrica будет получать:
-
-- **события Игры:** начало и конец забега, высота, срывы, станции, постановка зацепов, просмотр рекламы, смена настроек, ошибки
-  Игры;
+- **события Игры:** начало и конец забега, его длительность и высота, срывы, станции, постановка зацепов, очки, расход магнезии,
+  показанные подсказки обучения, где была Игра в момент сворачивания (в забеге, на паузе, на главном экране), просмотр рекламы, смена
+  настроек, ошибки Игры;
+- **сводку игры:** итог первой игровой сессии (высота, станции, число забегов, длительность, чем она кончилась), рекорд высоты, номер
+  игровой сессии и день с первого запуска. Само сохранение Игры не отправляется;
 - **технические данные:** модель устройства, версия Android и Игры, язык, размер экрана, тип сети, IP-адрес (по нему сервис
   определяет страну и город), время сессий, отчёты о сбоях;
 - **технический идентификатор установки** AppMetrica. По нему нельзя узнать имя или контакты.
@@ -108,7 +107,7 @@ SDK рекламы запускается вместе с Игрой — даж�
 
 # Privacy Policy of “Route setters”
 
-Effective date: 16 October 2026
+Effective date: 17 October 2026
 
 This policy explains what data the Android game “Route setters” (the “Game”) processes and why.
 
@@ -124,8 +123,9 @@ There are no purchases in the Game, and no payment data is processed.
 
 **3. Data on your device**
 
-Progress (stations, height record, points) and settings (sound, language, “Reduce motion”) are stored only on your phone and are not
-sent to the Developer.
+The Game’s save (stations, height record, points) and settings (sound, language, “Reduce motion”) are stored only on your phone. The
+save itself is not sent to the Developer. Game counters — height, stations, points and the other events in section 5 — go to AppMetrica
+statistics.
 
 If Android backup is enabled on your phone, the Game’s save may be included in the device backup, which Google or the phone maker
 keeps under its own rules.
@@ -138,30 +138,28 @@ You can delete this data in three ways:
 
 **4. Ads (Yandex Mobile Ads)**
 
-The Game includes the Yandex Mobile Ads SDK (YANDEX LLC). The only ads in the Game are rewarded videos that you start yourself with a
-button marked as an ad. In the current version of the Game ads are not turned on yet: there are no ad buttons. When ads appear, they
-will not be personalized and will be served as for a children’s audience (the Game is rated 6+).
+The Game may show ads from Yandex Mobile Ads (YANDEX LLC): rewarded videos that you start yourself with a button marked as an ad.
+Ads are not personalized and are served as for a children’s audience (the Game is rated 6+).
 
-The ads SDK starts together with the Game — even while no ads are shown — and receives technical data:
+To serve and count ads, the ads SDK receives technical data:
 
 - IP address;
 - device model and parameters, Android version, language;
 - network type;
-- ad impressions and clicks, when ads are shown.
+- ad impressions and clicks.
 
 For statistics and fraud prevention, the ads SDK uses Yandex’s AppMetrica library. Yandex processes this data under its privacy
 policy: <https://yandex.com/legal/confidential/>
 
 **5. Analytics (AppMetrica)**
 
-To understand how the Game is played and to fix bugs, the Game may use AppMetrica (YANDEX LLC).
+To understand how the Game is played and to fix bugs, starting with version 1.1.2 the Game uses AppMetrica (YANDEX LLC). It
+receives:
 
-In the current version of the Game the Developer’s analytics is not turned on: the Game does not send its own events to AppMetrica,
-and AppMetrica runs only inside the ads SDK (section 4) and receives technical data from the list below.
-
-When analytics is turned on in an update of the Game, AppMetrica will receive:
-
-- **Game events:** run start and end, height, falls, stations, hold placement, ad views, settings changes, Game errors;
+- **Game events:** run start and end, run duration and height, falls, stations, hold placement, points, chalk use, tutorial hints
+  shown, where the Game was when it was minimized (in a run, paused, on the home screen), ad views, settings changes, Game errors;
+- **a play summary:** the outcome of your first play session (height, stations, number of runs, duration, how it ended), your height
+  record, the session number and the day since first launch. The Game’s save itself is not sent;
 - **technical data:** device model, Android and Game version, language, screen size, network type, IP address (used by the service
   to determine country and city), session times, crash reports;
 - **a technical AppMetrica installation ID.** It does not reveal your name or contacts.
